@@ -1,6 +1,6 @@
 {
   "name": "nativescript-pusher-ns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pusher plugin for NativeScript with support to iOS and Android platforms",
   "main": "index.js",
   "author": "Slidebean <dev@slidebean.com> (https://github.com/slidebean)",
