@@ -48,9 +48,11 @@
     }
   },
   "peerDependencies": {
+    "@nativescript/core": "^7.0.13",
     "nativescript-websockets": "*"
   },
   "dependencies": {
+    "@nativescript/core": "^7.0.13",
     "pusher-js": "4.2.2"
   },
   "devDependencies": {
