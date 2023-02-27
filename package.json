@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/slidebean/pusher-nativescript"
+    "url": "https://github.com/vpetyov/pusher-nativescript"
   },
   "bugs": {
-    "url": "https://github.com/slidebean/pusher-nativescript/issues"
+    "url": "https://github.com/vpetyov/pusher-nativescript/issues"
   },
   "keywords": [
     "nativescript",
@@ -40,7 +40,7 @@
     "pusher"
   ],
   "license": "MIT",
-  "private": false,
+  "private": true,
   "nativescript": {
     "platforms": {
       "android": "3.0.0",
