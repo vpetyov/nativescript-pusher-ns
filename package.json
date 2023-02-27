@@ -40,7 +40,6 @@
     "pusher"
   ],
   "license": "MIT",
-  "private": true,
   "nativescript": {
     "platforms": {
       "android": "3.0.0",
