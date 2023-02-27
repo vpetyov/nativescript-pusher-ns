@@ -1,5 +1,5 @@
 {
-  "name": "pusher-nativescript",
+  "name": "nativescript-pusher-ns",
   "version": "1.0.0",
   "description": "Pusher plugin for NativeScript with support to iOS and Android platforms",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "scripts": {
     "clean": "npm run clean:dist && npm run clean:pack",
     "clean:dist": "del ./dist",
-    "clean:pack": "del pusher-nativescript-*.tgz",
+    "clean:pack": "del nativescript-pusher-ns-*.tgz",
     "build": "webpack --config=webpack/config.js",
     "prettier": "prettier --write *.{ts,js,json}",
     "precommit": "lint-staged",
@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vpetyov/pusher-nativescript"
+    "url": "https://github.com/vpetyov/nativescript-pusher-ns"
   },
   "bugs": {
-    "url": "https://github.com/vpetyov/pusher-nativescript/issues"
+    "url": "https://github.com/vpetyov/nativescript-pusher-ns/issues"
   },
   "keywords": [
     "nativescript",
