@@ -3,7 +3,7 @@ import Isomorphic from 'pusher-js/src/runtimes/isomorphic/runtime';
 import xhrAuth from 'pusher-js/src/runtimes/isomorphic/auth/xhr_auth';
 import xhrTimeline from 'pusher-js/src/runtimes/isomorphic/timeline/xhr_timeline';
 import { AuthTransports } from 'pusher-js/src/core/auth/auth_transports';
-import { XMLHttpRequest } from 'tns-core-modules/xhr';
+import { XMLHttpRequest } from '@nativescript/core/xhr';
 import Runtime from 'pusher-js/src/runtimes/interface';
 import { Network } from './net_info';
 import 'nativescript-websockets';

@@ -1,10 +1,10 @@
-declare module 'tns-core-modules/connectivity' {
+declare module '@nativescript/core/connectivity' {
   export var connectionType: any;
   export var startMonitoring: Function;
   export var getConnectionType: Function;
 }
 
-declare module 'tns-core-modules/xhr' {
+declare module '@nativescript/core/xhr' {
   export class XMLHttpRequest {
     open(method: string, url: string, async: boolean);
     send(payload: any): Function;

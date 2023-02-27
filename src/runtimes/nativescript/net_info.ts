@@ -1,5 +1,5 @@
 ///<reference path="../../d.ts/nativescript.d.ts" />
-import * as connectivity from 'tns-core-modules/connectivity';
+import * as connectivity from '@nativescript/core/connectivity';
 import EventDispatcher from 'pusher-js/src/core/events/dispatcher';
 import Reachability from 'pusher-js/src/core/reachability';
 

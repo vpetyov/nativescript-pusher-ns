@@ -45,8 +45,8 @@ module.exports = {
   },
   target: 'node',
   externals: {
-    'tns-core-modules/xhr': 'tns-core-modules/xhr', // our Reachability implementation needs to reference nativescript core modules.
-    'tns-core-modules/connectivity': 'tns-core-modules/connectivity', // our Reachability implementation needs to reference nativescript core modules.
+    '@nativescript/core/xhr': '@nativescript/core/xhr', // our Reachability implementation needs to reference nativescript core modules.
+    '@nativescript/core/connectivity': '@nativescript/core/connectivity', // our Reachability implementation needs to reference nativescript core modules.
     'nativescript-websockets': 'nativescript-websockets', // our Reachability implementation needs a websockets implementation.
   },
   resolve: {
